@@ -1,3 +1,8 @@
+# A Transferable Climate Profile Framework
+# Using WorldClim v2.1 and CMIP6 SSP Projections
+# Case Study: Cambodia
+
+## Introduction
 A climate profile is an essential element of any climate risk assessment, as it provides the quantitative baseline and future projections necessary to identify climate hazards, evaluate exposure, and inform adaptation planning. This climate profile is part of a larger framework under development for assessing climate risk, which will be shared once completed.
 
 This R script provides a transparent, reproducible and transferable framework for generating a set of key maps and graphs required for a climate profile. Outputs are based on the WorldClim 2.1 climate dataset, including historical (1970–2000) and CMIP6 projected data for two future periods (2041–2060 and 2061–2080) under two shared socioeconomic pathways (SSP): SSP2-4.5 (moderate) and SSP5-8.5 (very high) emission scenarios. Future projections for Cambodia are based on an ensemble of five global climate models (GCMs)—ACCESS-CM2, MIROC6, EC-Earth3-Veg, MRI-ESM2-0, and IPSL-CM6A-LR (see index.Rmd). While demonstrated here at the national level, the boundary used to crop data intputs can be readily adjusted to any administrative region or river basin boundary, making the script adaptable to sub-national and watershed-level climate assessments.
